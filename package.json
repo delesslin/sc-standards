@@ -1,0 +1,27 @@
+{
+  "name": "sc-standards-npm",
+  "version": "1.0.0",
+  "description": "Making South Carolina's Educational Standards Machine Readable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "node JS/convert.js",
+    "start": "node JS/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delesslin/sc-standards.git"
+  },
+  "author": "delesslin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delesslin/sc-standards/issues"
+  },
+  "homepage": "https://github.com/delesslin/sc-standards#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mammoth": "^1.4.9",
+    "path": "^0.12.7",
+    "puppeteer": "^3.3.0"
+  }
+}
