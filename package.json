@@ -20,7 +20,7 @@
   "homepage": "https://github.com/delesslin/sc-standards#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "mammoth": "^1.4.9",
+    "mammoth": "^1.5.1",
     "path": "^0.12.7",
     "puppeteer": "^3.3.0"
   }
